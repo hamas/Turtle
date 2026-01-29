@@ -2,7 +2,7 @@ name: turtle
 description: "Turtle - A powerful media downloader inspired by Seal, built with Flutter."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.10.7
