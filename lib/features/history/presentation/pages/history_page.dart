@@ -166,7 +166,7 @@ class _HistoryPageState extends ConsumerState<HistoryPage> {
               final path = await task.filePath();
               if (await File(path).exists()) {
                 if (context.mounted) {
-                  Navigator.push(
+                  await Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (_) => VideoPlayerPage(filePath: path),

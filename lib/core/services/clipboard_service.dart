@@ -28,7 +28,7 @@ class ClipboardService {
     if (youtubeRegex.hasMatch(content) || instagramRegex.hasMatch(content)) {
       if (!context.mounted) return;
 
-      showDialog(
+      await showDialog(
         context: context,
         builder: (c) => AlertDialog(
           title: const Text('Link Detected'),
