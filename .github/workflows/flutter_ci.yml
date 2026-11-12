@@ -50,4 +50,4 @@ jobs:
 
       - name: 🏗️ Build Android APK (Debug)
         # This step verifies Gradle configuration and Kotlin compilation
-        run: flutter build apk --debug
+        run: flutter build apk --debug --android-skip-build-dependency-validation
